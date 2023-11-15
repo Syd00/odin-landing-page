@@ -4,7 +4,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
 }
@@ -12,6 +12,29 @@ nav {
 header {
     background-color: #1F2937;
     height: 300px;
+    padding: 0 55px;
+}
+
+header h1 {
+    color: #F9FaF8;
+    font-weight: bolder;
+}
+
+header p {
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 40%;
 }
 
 .logo {
