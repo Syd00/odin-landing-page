@@ -69,6 +69,9 @@ header p {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 6em;
+    padding: 20px;
+    background-color: white;
 }
 
 .info h1 {
@@ -101,6 +104,65 @@ figcaption {
     height: 100px;
     width: 100px;
     border: 1px solid blue;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 10vh 0;
+}
+
+.quote p {
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    text-align: justify;
+}
+
+#quote_name {
+    text-align: end;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cta {
+    padding: 60px;
+}
+
+.box {
+    background-color: #3882F6;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.cta_left {
+    width: 60%;
+    text-align: justify;
+    color: white;
+}
+
+.cta_left h3 {
+    margin-bottom: 0;
+}
+
+.cta_left p {
+    margin-top: 0;
+}
+
+.cta_right {
+    width: 30%;
+    margin: auto;
+    text-align: end;
+}
+
+.cta_right button {
+    border: 1px solid white;
 }
 
 ul {
