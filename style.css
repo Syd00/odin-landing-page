@@ -19,6 +19,7 @@ header h1 {
     color: #F9FaF8;
     font-weight: bolder;
     font-size: 48px;
+    margin: 0;
 }
 
 header p {
@@ -36,6 +37,16 @@ header p {
 
 .left {
     width: 45%;
+}
+
+.signUp {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 90px;
+    border-style: none;
+    height: 30px;
+    color: white;
+    font-weight: bold;
 }
 
 .right {
@@ -63,6 +74,21 @@ header p {
 .info h1 {
     margin-bottom: 30px;
     margin: 30px 0;
+    font-size: 36px
+}
+
+figure {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: grey;
 }
 
 .items {
