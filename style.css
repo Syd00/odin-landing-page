@@ -10,9 +10,20 @@ nav {
     margin-bottom: 10vh;
 }
 
-header {
+header{
     background-color: #1F2937;
     padding: 0 15vh 15vh 15vh;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 
 header h1 {
